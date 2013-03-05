@@ -5,6 +5,8 @@ require_once('rackspace.php');
 function pushfile($container, $filename) {
 	if (substr($filename, -3) == 'css')
 		$mime = 'text/css';
+	elseif (substr($filename, -3) == 'jpg')
+		$mime = 'image/jpeg';
 	elseif (substr($filename, -3) == 'png')
 		$mime = 'image/png';
 	elseif (substr($filename, -4) == 'html')
