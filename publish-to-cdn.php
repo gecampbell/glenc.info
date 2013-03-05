@@ -24,7 +24,7 @@ function pushfile($container, $filename) {
 }
 
 define('AUTHURL', 'https://identity.api.rackspacecloud.com/v2.0/');
-define('USERNAME', $_ENV['OS_USERNAME']);
+define('USERNAME', 'glencampbell');
 define('TENANT', $_ENV['OS_TENANT_NAME']);
 define('APIKEY', $_ENV['NOVA_API_KEY']);
 
